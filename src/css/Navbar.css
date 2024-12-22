@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .landing-page {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #eef2f3;
+  }
+  
+  .role-buttons button {
+    margin: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .role-buttons button:hover {
+    background: #0056b3;
+  }

@@ -1,0 +1,137 @@
+/* General Dashboard Styling */
+.teacher-dashboard {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Header Styling */
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .logout-button {
+    background: #f05454;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background: #c43d3d;
+  }
+  
+  /* Teacher Info Section */
+  .teacher-info {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teacher-info p {
+    margin: 8px 0;
+    font-size: 1rem;
+  }
+  
+  .teacher-info strong {
+    color: #555;
+  }
+  
+  /* Student Management Section */
+  .student-management {
+    margin-top: 20px;
+  }
+  
+  .student-management h3 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  /* Table Styling */
+  .students-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .students-table th,
+  .students-table td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  
+  .students-table th {
+    background: #f05454;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+  }
+  
+  .students-table tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  .students-table tr:hover {
+    background: #f1f1f1;
+  }
+  
+  .edit-button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background: #3e8e41;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .dashboard-header h1 {
+      margin-bottom: 10px;
+    }
+  
+    .students-table th,
+    .students-table td {
+      padding: 10px;
+      font-size: 0.8rem;
+    }
+  
+    .edit-button {
+      padding: 6px 10px;
+      font-size: 0.8rem;
+    }
+  }
+  
